@@ -1,0 +1,5 @@
+n = int(input())
+a,b = 0,1
+While a < n:
+a, b = b, a + b
+print(a ==n)
